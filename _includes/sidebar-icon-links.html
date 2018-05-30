@@ -36,6 +36,30 @@
     </a>
   {% endif %}
   
+  {% if site.email %}
+    <a id="email-link"
+       class="icon" title="Email" aria-label="Email"
+       href="{{ site.email }}">
+      {% include svg/gmail.svg %}
+    </a>
+  {% endif %}
+  
+  {% if site.medium %}
+    <a id="medium-link"
+       class="icon" title="Medium" aria-label="Medium"
+       href="{{ site.medium }}">
+      {% include svg/medium.svg %}
+    </a>
+  {% endif %}
+  
+  {% if site.dribbble %}
+    <a id="dribbble-link"
+       class="icon" title="Dribbble" aria-label="Dribbble"
+       href="{{ site.dribbble }}">
+      {% include svg/dribble.svg %}
+    </a>
+  {% endif %}
+
   
   {% comment %}
     Check if we have tag or search pages page active before linking to it.
