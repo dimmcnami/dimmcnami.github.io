@@ -196,7 +196,7 @@ title: 📐 📐 📐 S P A C E 📐 📐 📐
     float zyplane = length(p.zy) - .1;
     
     // Number of sides of your shape
-    int N = 6;
+    int N = 3;
 
     // Angle and radius from the current pixel
     float a = atan(p.x,p.y)+PI;
@@ -257,7 +257,6 @@ title: 📐 📐 📐 S P A C E 📐 📐 📐
   }
   
 
-  // Shadows
   // Reference at: http://www.iquilezles.org/www/articles/rmshadows/rmshadows.htm
   float softShadow(vec3 ro, vec3 lightPos, float start, float k){
     
@@ -298,7 +297,6 @@ title: 📐 📐 📐 S P A C E 📐 📐 📐
   
   /**
    * Lighting
-   * This stuff is way way better than the model I was using.
    * Courtesy Shane Warne
    * Reference: http://raymarching.com/
    * -------------------------------------
