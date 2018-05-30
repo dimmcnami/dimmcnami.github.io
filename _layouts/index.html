@@ -10,7 +10,7 @@ layout: default
   {% for post in paginator.posts %}
   <article class="post-body">
     <h4 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
+      <a href="{{ site.baseurl }}{{ post.url }}" {% if post.layout == "experiment" %} target="_blank" {% endif %}>
         {{ post.title }}
       </a>
       {% include span-meta.html post=post %}
