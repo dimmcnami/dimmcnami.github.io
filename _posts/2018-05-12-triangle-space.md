@@ -123,7 +123,7 @@ title: 📐 📐 📐 S P A C E 📐 📐 📐
   
     const vec3 ambientLight = 0.99 * vec3(1.0, 1.0, 1.0);
     const vec3 light1Pos = vec3(10., 5.0, -25.0);
-    const vec3 light1Intensity = vec3(0.35);
+    const vec3 light1Intensity = vec3(0.75);
     const vec3 light2Pos = vec3(-20., -25.0, 85.0);
     const vec3 light2Intensity = vec3(0.2);
   
@@ -170,7 +170,6 @@ title: 📐 📐 📐 S P A C E 📐 📐 📐
     return pow( p.x + p.y, 1.0/8.0 );
   }
   
-  // smooth min
   // reference: http://iquilezles.org/www/articles/smin/smin.htm
   float smin(float a, float b, float k) {
       float res = exp(-k*a) + exp(-k*b);
@@ -197,7 +196,7 @@ title: 📐 📐 📐 S P A C E 📐 📐 📐
     float zyplane = length(p.zy) - .1;
     
     // Number of sides of your shape
-    int N = 3;
+    int N = 6;
 
     // Angle and radius from the current pixel
     float a = atan(p.x,p.y)+PI;
