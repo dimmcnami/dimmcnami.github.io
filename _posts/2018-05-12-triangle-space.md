@@ -9,6 +9,10 @@ title: 📐 📐 📐 S P A C E 📐 📐 📐
 	  padding: 0;
 	}
 	
+	.container {
+		padding: 0;
+	}
+	
 	#space {
 	  position: fixed;
 	  touch-action: none;
@@ -26,7 +30,7 @@ title: 📐 📐 📐 S P A C E 📐 📐 📐
 	let texture;
 	loader.setCrossOrigin("anonymous");
 	loader.load(
-	  'https://s3-us-west-2.amazonaws.com/s.cdpn.io/982762/noise.png',
+	  'https://www.speakers.ca/wp-content/uploads/2013/06/ChrisHadfield2-760x427.jpg',
 	  function do_something_with_texture(tex) {
 	    texture = tex;
 	    texture.wrapS = THREE.RepeatWrapping;
