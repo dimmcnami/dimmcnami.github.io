@@ -18,7 +18,45 @@
       {% include svg/twitter.svg %}
     </a>
   {% endif %}
-
+  {% if site.instagram %}
+    <a id="instagram-link"
+       class="icon" title="Instagram" aria-label="Instagram"
+       href="{{ site.instagram }}">
+      {% include svg/instagram.svg %}
+    </a>
+  {% endif %}
+  {% if site.linkedin %}
+    <a id="linkedin-link"
+       class="icon" title="LinkedIn" aria-label="LinkedIn"
+       href="{{ site.linkedin }}">
+      {% include svg/linkedin.svg %}
+    </a>
+  {% endif %}
+  
+  {% if site.email %}
+    <a id="email-link"
+       class="icon" title="Email" aria-label="Email"
+       href="{{ site.email }}">
+      {% include svg/gmail.svg %}
+    </a>
+  {% endif %}
+  
+  {% if site.medium %}
+    <a id="medium-link"
+       class="icon" title="Medium" aria-label="Medium"
+       href="{{ site.medium }}">
+      {% include svg/medium.svg %}
+    </a>
+  {% endif %}
+  
+  {% if site.dribbble %}
+    <a id="dribbble-link"
+       class="icon" title="Dribbble" aria-label="Dribbble"
+       href="{{ site.dribbble }}">
+      {% include svg/dribble.svg %}
+    </a>
+  {% endif %}
+  
   <a id="subscribe-link"
      class="icon" title="Subscribe" aria-label="Subscribe"
      href="{{ site.baseurl }}/feed.xml">
