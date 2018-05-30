@@ -23,7 +23,7 @@ a:visited {
     text-align: center;
 }
 
-.content {
+.mainclass {
     margin: 0 auto;
     max-width: 60rem;
 	background: #E1E1E3;
@@ -106,7 +106,7 @@ a:visited {
 }
 </style>
 
-<main class="content">
+<main class="mainclass">
     <section class="panel">
         <dl class="definition">
             <dt class="definition__term"><h1><a href="https://www.urbandictionary.com/define.php?term=mondaze" target="_blank" rel="noopener">mondaze</a></h1></dt>
@@ -124,19 +124,11 @@ a:visited {
                         <li class="tags__item"><a href="#" class="tags__link">#euphoric</a></li>
                     </ul>
 
-                    <footer class="definition__attribution">by <cite class="definition__attribution-cite"><a href="#" class="definition__attribution-link">luv24328</a> August 09, 2009</cite></footer>
+                    <footer class="definition__attribution">by <cite class="definition__attribution-cite"><a href="#" class="definition__attribution-link">mcnasty</a> August 09, 2009</cite></footer>
                 </blockquote>
             </dd>
             <dd>
                 <!-- numeral as psuedo element -->
-            </dd>
-        </dl>
-    </section>
-    
-    <section class="panel">
-        <dl class="definition">
-            <dt class="definition__term"><h1><a href="https://www.urbandictionary.com/define.php?term=mondaze" target="_blank" rel="noopener">Mondaze</a></h1></dt>
-            <dd>
             </dd>
         </dl>
     </section>
