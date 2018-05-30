@@ -30,7 +30,7 @@ title: 📐 📐 📐 S P A C E 📐 📐 📐
 	let texture;
 	loader.setCrossOrigin("anonymous");
 	loader.load(
-	  'https://www.speakers.ca/wp-content/uploads/2013/06/ChrisHadfield2-760x427.jpg',
+	  'https://www.straight.com/files/v3/styles/gs_large/public/images/17/03/chrishadfield_170314.jpg',
 	  function do_something_with_texture(tex) {
 	    texture = tex;
 	    texture.wrapS = THREE.RepeatWrapping;
