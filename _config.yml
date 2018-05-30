@@ -4,8 +4,8 @@ highlighter:      rouge
 
 # Setup
 title:            McNami
-tagline:          '/x/'
-description:      'don\'t try'
+tagline:          "/x/"
+description:      "dont try"
 url:              https://x.mcnami.com
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -14,7 +14,7 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # sidebar_blog_link below.
 
 author:
-  name:           'Dim McNami'
+  name:           "Dim McNami"
   url:            https://twitter.com/dimmcnami
 
 paginate:         5
