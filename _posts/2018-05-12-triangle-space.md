@@ -9,7 +9,7 @@ title: 📐 📐 📐 S P A C E 📐 📐 📐
 	  padding: 0;
 	}
 	
-	#container {
+	#space {
 	  position: fixed;
 	  touch-action: none;
 	}
@@ -328,4 +328,4 @@ title: 📐 📐 📐 S P A C E 📐 📐 📐
 </script>
 
 
-<div id="container" touch-action="none"></div>
+<div id="space" touch-action="none"></div>
