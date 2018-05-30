@@ -30,7 +30,7 @@ title: 📐 📐 📐 S P A C E 📐 📐 📐
 	let texture;
 	loader.setCrossOrigin("anonymous");
 	loader.load(
-	  'https://www.straight.com/files/v3/styles/gs_large/public/images/17/03/chrishadfield_170314.jpg',
+	  'https://x.mcnami.com/assets/img/hadfield.jpg',
 	  function do_something_with_texture(tex) {
 	    texture = tex;
 	    texture.wrapS = THREE.RepeatWrapping;
