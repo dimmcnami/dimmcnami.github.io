@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            McNami
 tagline:          "/x/"
-description:      "dont try"
+description:      "don't try"
 url:              https://x.mcnami.com
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
