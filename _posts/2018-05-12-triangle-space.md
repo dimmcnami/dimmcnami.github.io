@@ -38,7 +38,7 @@ title: 📐 📐 📐 S P A C E 📐 📐 📐
 	);
 	
 	function init() {
-	  container = document.getElementById( 'container' );
+	  container = document.getElementById( 'space' );
 	
 	  camera = new THREE.Camera();
 	  camera.position.z = 1;
