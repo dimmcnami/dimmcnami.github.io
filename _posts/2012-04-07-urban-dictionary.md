@@ -26,6 +26,8 @@ a:visited {
 .content {
     margin: 0 auto;
     max-width: 60rem;
+	background: #E1E1E3;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
 .panel {
