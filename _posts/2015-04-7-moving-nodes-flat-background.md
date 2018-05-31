@@ -58,7 +58,7 @@ function init () {
   // set canvas size
   canvas.width = wWidth
   canvas.height = wHeight
-  ctx.fillStyle = "#aaaaaa";
+  ctx.fillStyle = "#ffffff";
   // create nodes
   var i, len
   for (i = 0, len = nodes.length; i < len; i++) {
