@@ -3,6 +3,17 @@ layout: post
 title: Moving Nodes - Flat Background
 ---
 
+<style>
+	#nodesContainer {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  overflow: hidden;
+	}
+</style>
+
 <div id="nodesContainer"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -44,7 +55,7 @@ function init () {
   // set canvas size
   canvas.width = wWidth
   canvas.height = wHeight
-  ctx.fillStyle = "#ffffff";
+  ctx.fillStyle = "#aaaaaa";
   // create nodes
   var i, len
   for (i = 0, len = nodes.length; i < len; i++) {
