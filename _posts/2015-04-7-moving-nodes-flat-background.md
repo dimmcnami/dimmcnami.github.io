@@ -3,18 +3,7 @@ layout: post
 title: Moving Nodes - Flat Background
 ---
 
-<style>
-	i {
-	  position: absolute;
-	  top:0; bottom:0;left:0;right:0;
-	  display:block;
-	  z-index:-1;
-	}
-	canvas#nodes {
-	  height:100vh;
-	}
-</style>
-
+<div id="nodesContainer"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -28,7 +17,7 @@ var nodes = new Array(Math.sqrt(wArea) / 10 | 0)
 
 var canvas = document.createElement('canvas')
 var ctx = canvas.getContext('2d')
-var container = document.getElementById('nodesContainer')
+var $container = document.getElementById('nodesContainer')
 
 if (pixelRatio !== 1) {
   // if retina screen, scale canvas
@@ -37,7 +26,7 @@ if (pixelRatio !== 1) {
 }
 canvas.id = 'nodegarden'
 
-container.appendChild(canvas)
+$container.appendChild(canvas)
 
 init()
 render()
@@ -186,4 +175,3 @@ function render () {
 
 </script>
 
-<div id="nodesContainer" />
