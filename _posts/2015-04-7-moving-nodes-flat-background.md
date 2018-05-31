@@ -12,6 +12,9 @@ title: Moving Nodes - Flat Background
 	  height: 100%;
 	  overflow: hidden;
 	}
+	.container, .content {
+		background: transparent;
+	}
 </style>
 
 <div id="nodesContainer"></div>
