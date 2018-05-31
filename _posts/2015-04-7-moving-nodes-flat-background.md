@@ -28,7 +28,7 @@ var nodes = new Array(Math.sqrt(wArea) / 10 | 0)
 
 var canvas = document.createElement('canvas')
 var ctx = canvas.getContext('2d')
-var $container = document.getElementById('nodesContainer')
+var container = document.getElementById('nodesContainer')
 
 if (pixelRatio !== 1) {
   // if retina screen, scale canvas
@@ -37,7 +37,7 @@ if (pixelRatio !== 1) {
 }
 canvas.id = 'nodegarden'
 
-$container.appendChild(canvas)
+container.appendChild(canvas)
 
 init()
 render()
