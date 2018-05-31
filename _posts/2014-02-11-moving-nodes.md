@@ -8,7 +8,6 @@ title: Moving Nodes
 	  position: absolute;
 	  top:0; bottom:0;left:0;right:0;
 	  display:block;
-	  background:#f9f6f1;
 	  z-index:-1;
 	}
 	canvas#nodes {
