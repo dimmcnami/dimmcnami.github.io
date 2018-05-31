@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Moving Nodes
+title: Moving Nodes - MouseOver Interaction
 ---
 
 <style>
