@@ -53,7 +53,7 @@ function init () {
   wArea = wWidth * wHeight
 
   // calculate nodes needed
-  nodes.length = Math.sqrt(wArea) / 5 | 0
+  nodes.length = Math.sqrt(wArea) / 3 | 0
 
   // set canvas size
   canvas.width = wWidth
